@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+}

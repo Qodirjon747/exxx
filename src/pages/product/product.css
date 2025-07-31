@@ -1,0 +1,22 @@
+.product-container {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.product-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.back-link {
+    margin-top: 20px;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+}
